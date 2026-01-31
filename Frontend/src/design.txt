@@ -1,0 +1,77 @@
+src/
+│
+├── modules/
+│   ├── user/
+│   │   ├── pages/
+│   │   │   ├── Welcome/
+│   │   │   │   └── Welcome.jsx
+│   │   │   ├── Auth/
+│   │   │   │   ├── Login.jsx
+│   │   │   │   └── Signup.jsx
+│   │   │   ├── Home/
+│   │   │   │   └── Home.jsx
+│   │   │   ├── Event/
+│   │   │   │   ├── CreateEvent.jsx
+│   │   │   │   ├── EventDashboard.jsx
+│   │   │   │   └── Checklist.jsx
+│   │   │   ├── Service/
+│   │   │   │   └── ServiceList.jsx
+│   │   │   ├── Vendor/
+│   │   │   │   ├── VendorList.jsx
+│   │   │   │   └── VendorDetail.jsx
+│   │   │   ├── Booking/
+│   │   │   │   └── BookingSummary.jsx
+│   │   │   └── Profile/
+│   │   │       └── Profile.jsx
+│   │   │
+│   │   ├── components/
+│   │   │   ├── cards/
+│   │   │   │   ├── ServiceCard.jsx
+│   │   │   │   ├── VendorCard.jsx
+│   │   │   │   └── EventCard.jsx
+│   │   │   ├── layout/
+│   │   │   │   ├── UserLayout.jsx
+│   │   │   │   ├── Header.jsx
+│   │   │   │   └── BottomNav.jsx
+│   │   │   └── ui/
+│   │   │       ├── Button.jsx
+│   │   │       ├── Input.jsx
+│   │   │       └── Loader.jsx
+│   │   │
+│   │   ├── routes/
+│   │   │   └── user.routes.jsx
+│   │   │
+│   │   ├── hooks/
+│   │   │   └── useUserAuth.js
+│   │   │
+│   │   └── services/
+│   │       └── user.api.js
+│   │
+│   ├── admin/          ← (later)
+│   │   └── pages/
+│   │
+│   └── vendor/         ← (later)
+│       └── pages/
+│
+├── shared/
+│   ├── components/
+│   │   ├── Modal.jsx
+│   │   └── ProtectedRoute.jsx
+│   ├── constants/
+│   │   └── routes.js
+│   ├── utils/
+│   │   └── formatDate.js
+│   └── styles/
+│       └── theme.js
+│
+├── assets/
+│   ├── images/
+│   └── icons/
+│
+├── store/
+│   ├── auth.store.js
+│   └── event.store.js
+│
+├── App.jsx
+├── main.jsx
+└── index.css
